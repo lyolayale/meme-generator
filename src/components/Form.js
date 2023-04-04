@@ -34,10 +34,6 @@ export default function Form(props) {
       ...prev,
       [e.target.name]: e.target.value,
     }));
-
-    setTimeout(() => {
-      e.target.value = "";
-    }, 5000);
   }
 
   return (
