@@ -1,0 +1,325 @@
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* General Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #cbe5ed4c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' viewBox='0 0 192 192'%3E%3Cpath fill='%23f52ba4' fill-opacity='0.92' d='M192 15v2a11 11 0 0 0-11 11c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H145v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11 13 13 0 1 1 .02 26 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43a6.1 6.1 0 0 0-3.03 4.87V143h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 181 164a11 11 0 0 0 11 11v2a13 13 0 0 1-13-13 12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84a6.1 6.1 0 0 0-4.87-3.03H145v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 124 181a11 11 0 0 0-11 11h-2a13 13 0 0 1 13-13c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43a6.1 6.1 0 0 0 3.03-4.87V145h-35.02a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 107 124a11 11 0 0 0-22 0c0 1.94 1.16 4.75 2.53 6.11l2.36 2.36a6.93 6.93 0 0 1 1.22 7.56l-.43.84a8.08 8.08 0 0 1-6.66 4.13H49v35.02a6.1 6.1 0 0 0 3.03 4.87l.84.43c1.58.79 4 .4 5.24-.85l2.36-2.36a12.04 12.04 0 0 1 7.51-3.11A13 13 0 0 1 81 192h-2a11 11 0 0 0-11-11c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V145H11.98a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 0 1 0 177v-2a11 11 0 0 0 11-11c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H47v-35.02a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 28 109a13 13 0 1 1 0-26c2.47 0 5.79 1.37 7.53 3.11l2.36 2.36a4.94 4.94 0 0 0 5.24.85l.84-.43A6.1 6.1 0 0 0 47 84.02V49H11.98a8.08 8.08 0 0 1-6.66-4.13l-.43-.84a6.91 6.91 0 0 1 1.22-7.56l2.36-2.36A10.06 10.06 0 0 0 11 28 11 11 0 0 0 0 17v-2a13 13 0 0 1 13 13c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84A6.1 6.1 0 0 0 11.98 47H47V11.98a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 68 11 11 11 0 0 0 79 0h2a13 13 0 0 1-13 13 12 12 0 0 1-7.53-3.11l-2.36-2.36a4.93 4.93 0 0 0-5.24-.85l-.84.43A6.1 6.1 0 0 0 49 11.98V47h35.02a8.08 8.08 0 0 1 6.66 4.13l.43.84a6.91 6.91 0 0 1-1.22 7.56l-2.36 2.36A10.06 10.06 0 0 0 85 68a11 11 0 0 0 22 0c0-1.94-1.16-4.75-2.53-6.11l-2.36-2.36a6.93 6.93 0 0 1-1.22-7.56l.43-.84a8.08 8.08 0 0 1 6.66-4.13H143V11.98a6.1 6.1 0 0 0-3.03-4.87l-.84-.43c-1.59-.8-4-.4-5.24.85l-2.36 2.36A12 12 0 0 1 124 13a13 13 0 0 1-13-13h2a11 11 0 0 0 11 11c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V47h35.02a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 179 28a13 13 0 0 1 13-13zM84.02 143a6.1 6.1 0 0 0 4.87-3.03l.43-.84c.8-1.59.4-4-.85-5.24l-2.36-2.36A12 12 0 0 1 83 124a13 13 0 1 1 26 0c0 2.47-1.37 5.79-3.11 7.53l-2.36 2.36a4.94 4.94 0 0 0-.85 5.24l.43.84a6.1 6.1 0 0 0 4.87 3.03H143v-35.02a8.08 8.08 0 0 1 4.13-6.66l.84-.43a6.91 6.91 0 0 1 7.56 1.22l2.36 2.36A10.06 10.06 0 0 0 164 107a11 11 0 0 0 0-22c-1.94 0-4.75 1.16-6.11 2.53l-2.36 2.36a6.93 6.93 0 0 1-7.56 1.22l-.84-.43a8.08 8.08 0 0 1-4.13-6.66V49h-35.02a6.1 6.1 0 0 0-4.87 3.03l-.43.84c-.79 1.58-.4 4 .85 5.24l2.36 2.36a12.04 12.04 0 0 1 3.11 7.51A13 13 0 1 1 83 68a12 12 0 0 1 3.11-7.53l2.36-2.36a4.93 4.93 0 0 0 .85-5.24l-.43-.84A6.1 6.1 0 0 0 84.02 49H49v35.02a8.08 8.08 0 0 1-4.13 6.66l-.84.43a6.91 6.91 0 0 1-7.56-1.22l-2.36-2.36A10.06 10.06 0 0 0 28 85a11 11 0 0 0 0 22c1.94 0 4.75-1.16 6.11-2.53l2.36-2.36a6.93 6.93 0 0 1 7.56-1.22l.84.43a8.08 8.08 0 0 1 4.13 6.66V143h35.02z'%3E%3C/path%3E%3C/svg%3E");
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.1s all linear;
+}
+
+button:active {
+  box-shadow: 0 1px 1px rgba(100, 100, 100, 0.8);
+  transform: translate(5px, 5px);
+}
+
+button,
+input {
+  box-shadow: 0 5px 5px #777;
+  text-indent: 12px;
+}
+
+.hide {
+  display: none;
+}
+
+.darken {
+  opacity: 1.1;
+}
+
+/* Header */
+
+header,
+footer {
+  background: linear-gradient(
+    to right,
+    rgba(255, 221, 0) 5%,
+    rgba(0, 128, 128) 50%,
+    #672280de,
+    #a526d3ed
+  );
+  color: whitesmoke;
+  height: 65px;
+  padding-top: 20px;
+  text-shadow: 0 5px 5px rgba(50, 50, 50, 0.9);
+}
+
+header,
+.header-wrapper,
+nav {
+  width: 100%;
+  margin: auto;
+}
+
+header img {
+  animation: face 1.5s linear;
+  width: 31px;
+  filter: brightness(1.2) drop-shadow(0 0 100px #fff)
+    drop-shadow(0 4px 7px purple);
+}
+
+.heart-img {
+  vertical-align: text-bottom;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.header-wrapper .title,
+.header-wrapper .course {
+  font-size: 12px;
+  margin: auto 20px;
+}
+
+/* Form */
+
+form {
+  width: 100%;
+  margin: 3rem auto auto auto;
+  padding-bottom: 7rem;
+}
+
+form-container {
+  margin-bottom: 3rem;
+}
+
+.form-wrapper {
+  background-color: #f5cdf9ed;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2392aca9' fill-opacity='1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"),
+    url("../resources/glitter-purple.gif");
+  box-shadow: 0 5px 5px rgba(100, 100, 100, 0.5);
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+input {
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+  background-color: whitesmoke;
+  opacity: 0.85;
+  padding: 8px;
+  width: 100%;
+}
+
+input:focus {
+  outline: 1px solid rgba(128, 0, 128, 0.354);
+  box-shadow: 0 10px 10px rgba(128, 0, 128, 0.564);
+  color: #000;
+}
+
+button {
+  position: relative;
+  border: 1px solid rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: whitesmoke;
+  filter: brightness(1.2);
+  font-size: 10px;
+  margin-bottom: 2rem;
+  padding: 12px;
+  text-shadow: 0 5px 5px rgba(75, 75, 75, 0.8);
+  opacity: 0.7;
+  overflow: hidden;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 1;
+}
+
+button:before {
+  background: linear-gradient(90.41deg, #408d1f 1.14%, #dab018 100%);
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s all linear;
+  z-index: -1;
+}
+
+button:hover:before {
+  left: 0;
+}
+
+/* Meme */
+
+.meme {
+  width: 100%;
+  height: 100%;
+  margin: 10rem auto auto auto;
+}
+
+.meme-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.meme img {
+  animation: meme 1.5s linear;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px #999;
+  filter: brightness(1.5);
+  object-fit: cover;
+  opacity: 0.85main;
+  width: 100%;
+  max-height: 50rem;
+}
+
+.memeText {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25rem;
+  font-family: monospace;
+  font-size: 3rem;
+  color: whitesmoke;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #222;
+}
+
+.memeText h2 {
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .header-wrapper .course {
+    animation: fade-in 2s linear;
+    display: flex;
+  }
+
+  .header-wrapper .title,
+  .header-wrapper .course {
+    font-size: 1rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  button {
+    font-size: 1rem;
+    -webkit-text-stroke: 1px teal;
+  }
+
+  .form-inputs {
+    flex-direction: row;
+  }
+}
+
+/* Keyframes */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes face {
+  from {
+    width: 12rem;
+    transform: translate(200px);
+  }
+
+  to {
+    width: 31px;
+    transform: translate(0);
+  }
+}
+
+@keyframes meme {
+  from {
+    transform: rotate(1turn);
+    width: 1rem;
+    box-shadow: 0 0 50px 50px rgba(151, 40, 134, 0.842);
+    filter: drop-shadow(0 100px teal);
+  }
+
+  to {
+    transform: rotate(0);
+    box-shadow: none;
+  }
+}
