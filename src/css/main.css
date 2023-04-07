@@ -113,6 +113,10 @@ form {
   padding-bottom: 7rem;
 }
 
+form h2 {
+  font-size: 2rem;
+}
+
 form-container {
   margin-bottom: 3rem;
 }
@@ -123,6 +127,7 @@ form-container {
     url("../resources/glitter-purple.gif");
   box-shadow: 0 5px 5px rgba(100, 100, 100, 0.5);
   width: 50%;
+  height: 100%;
   margin: auto;
   padding: 1rem;
   display: flex;
@@ -224,10 +229,9 @@ button:hover:before {
   left: 0%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  gap: 25rem;
   font-family: monospace;
   font-size: 3rem;
   color: whitesmoke;
@@ -279,8 +283,18 @@ footer {
     -webkit-text-stroke: 1px teal;
   }
 
+  form h2 {
+    font-size: 2.8rem;
+  }
+
   .form-inputs {
     flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  form h2 {
+    font-size: 3.2rem;
   }
 }
 
